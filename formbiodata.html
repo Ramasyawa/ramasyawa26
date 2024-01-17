@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title> biodata</title>
+    </Head>
+    <body style="background-color: rgb(175, 234, 112);">
+        <form>
+            <table>
+         <h2><b> Masukkan Biodata Anda</b></h2> 
+           <tr>
+            <td> Nama </td>
+            <td> : </td>
+               <td> <input type="text" name="nama" required></td> 
+           </tr>
+           <tr>
+           <td>tanggal lahir</td>
+           <td> : </td>
+            <td> <input type="date" name="lahir" required>  </td>
+           </tr>
+           <tr>
+           <td> jenis kelamin </td> 
+           <td> : </td>
+         <td> <input type="radio" name="jeniskelamin" value="laki-laki"required> laki-laki 
+            <input type="radio" name="jeniskelamin" value="perempuan" required> perempuan </td>
+             </tr>
+            <tr>
+          <td> Jurusan </td> 
+          <td> : </td>
+          <td> <select name="Jurusan">
+            <option value="TJKT">TJKT</option>
+            <option value="RPL" >RPL</option>
+            <option value="BCF" >BCF</option>
+           </select> </td> <br> </tr>
+        <tr>
+           <td>hobi</td> 
+           <td> : </td>
+           <td> <input type="checkbox" name="hobi" value="Music"> Music 
+           <input type="checkbox" name="hobi" value="dance"> dance 
+           <input type="checkbox" name="hobi" value="swimming"> swimming 
+           <input type="checkbox" name="hobi" value="football"> football </td>
+           </tr>
+           <tr>
+          <td> alamat </td> 
+          <td> : </td>
+          <td> <textarea name="alamat" cols="35" rows="5"></textarea required> </td> 
+           </tr>
+           <tr> 
+            <td><input type="submit" value="kirim "> </td>
+        </tr>
+            </table>
+        </form>
+    </body>
+</html>
